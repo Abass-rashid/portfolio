@@ -8,8 +8,7 @@
 ## Built With
 
 - HTML5 & CSS3
-- Frameworks
-- Technologies used
+
 
 ## Live Demo (if available)
 
@@ -25,10 +24,12 @@
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
+basic knowledge of HTML5, CSS3 ,GIT ,GITHUB and how the world wide web (www) works.
 
 ### Setup
 
 ### Install
+visual studio code , git , google cgrome
 
 ### Usage
 
@@ -42,9 +43,11 @@ To get a local copy up and running follow these simple example steps.
 
 👤 **Author1**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+👤 **Abass rshid **
+
+- GitHub: [@githubhandle](https://github.com/abass-rashid)
+- Twitter: [@twitterhandle](https://twitter.com/abass-rashid10)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/abass-rashid)
 
 👤 **Author2**
 
