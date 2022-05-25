@@ -1,73 +1,53 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Personal Portfolio
 
 > Description the project.
 
+This project is my personal Portifolio on which you may find my recent work and connect to me via my social media platforms.
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
-
-## Live Demo (if available)
-
-[Live Demo Link](https://livedemo.com)
+- HTML
+- CSS
+- Technologies used: LINT, HINT, LINTHOUSE
 
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
+-Clone the project via terminal or download the package.
 
-
-To get a local copy up and running follow these simple example steps.
+-Open index.html file via browser
 
 ### Prerequisites
 
+1. Should have installed any web browser
+
 ### Setup
 
-### Install
+npx stylelint "**/*.{css,scss}" npx hint ./index.html
 
 ### Usage
 
-### Run tests
-
-### Deployment
+1. Open index.html located at the route folder of the project
 
 
 
-## Authors
+## Author
 
-👤 **Author1**
+👤 **Abass rshid **
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@githubhandle](https://github.com/abass-rashid)
+- Twitter: [@twitterhandle](https://twitter.com/abass-rashid10)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/abass-rashid)
 
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
 
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to text via above provided social media handles.
 
 ## Show your support
 
 Give a ⭐️ if you like this project!
-
-## Acknowledgments
-
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
-
-## 📝 License
-
-This project is [MIT](./MIT.md) licensed.
