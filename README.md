@@ -2,12 +2,12 @@
 
 # Project Name
 
-> Description the project.
+> Portfolio project.
 
 
 ## Built With
 
-- Major languages
+- HTML5 & CSS3
 - Frameworks
 - Technologies used
 
