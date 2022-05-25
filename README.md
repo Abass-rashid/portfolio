@@ -1,47 +1,39 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Personal Portfolio
 
-> Portfolio project.
+> Description the project.
 
+This project is my personal Portifolio on which you may find my recent work and connect to me via my social media platforms.
 
 ## Built With
 
-- HTML5 & CSS3
-
-
-## Live Demo (if available)
-
-[Live Demo Link](https://livedemo.com)
+- HTML
+- CSS
+- Technologies used: LINT, HINT, LINTHOUSE
 
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
+-Clone the project via terminal or download the package.
 
-
-To get a local copy up and running follow these simple example steps.
+-Open index.html file via browser
 
 ### Prerequisites
-basic knowledge of HTML5, CSS3 ,GIT ,GITHUB and how the world wide web (www) works.
+
+1. Should have installed any web browser
 
 ### Setup
 
-### Install
-visual studio code , git , google cgrome
+npx stylelint "**/*.{css,scss}" npx hint ./index.html
 
 ### Usage
 
-### Run tests
-
-### Deployment
+1. Open index.html located at the route folder of the project
 
 
 
-## Authors
-
-👤 **Author1**
+## Author
 
 👤 **Abass rshid **
 
@@ -49,28 +41,13 @@ visual studio code , git , google cgrome
 - Twitter: [@twitterhandle](https://twitter.com/abass-rashid10)
 - LinkedIn: [LinkedIn](https://linkedin.com/in/abass-rashid)
 
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
 
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to text via above provided social media handles.
 
 ## Show your support
 
 Give a ⭐️ if you like this project!
-
-## Acknowledgments
-
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
-
-## 📝 License
-
-This project is [MIT](./MIT.md) licensed.
