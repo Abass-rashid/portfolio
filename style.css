@@ -99,10 +99,6 @@ a {
   transform: scale(130%);
 }
 
-.social-icons ul li {
-  list-style-type: none;
-}
-
 .social-icons li a {
   color: #344563;
 }
@@ -192,6 +188,7 @@ button {
   border-radius: 8px;
   align-self: flex-start;
   padding: 8px 8px;
+  margin-top: 1rem;
 }
 
 form button {
@@ -209,7 +206,6 @@ button:active {
   background: #2230d2;
   box-shadow: none;
 }
-
 
 /* About Styles
 ************************** */
@@ -273,4 +269,8 @@ button:active {
 
 .about button {
   margin: 10px 0 20px 0;
+}
+
+.social-icons ul li {
+  list-style-type: none;
 }
