@@ -1,1 +1,4 @@
 node_modules/
+hint-report
+.idea
+npm-debug.log

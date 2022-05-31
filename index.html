@@ -158,29 +158,29 @@
     </div>
 </section>
 <footer>
-   <div class="footer-container">
-     <div class="footer-header">
-       <h1>Contact me</h1>
-       <p>
+   <div class="footer-container p-5 gap-2 d-flex flex-dir-column align-items-center justify-around">
+     <div class="footer-header d-flex flex-dir-column mt-5">
+       <h1 class="text-white d-inline mx-auto .header-typo-1 my-1 ">Contact me</h1>
+       <p class="text-white my-1 text-center mt-1">
          If you have an application you are interested in developing, a feature
          that you need built or a project that needs coding. I’d love to help with it
        </p>
      </div>
-     <div class="footer-body">
-       <form action="" method="post">
+     <div class="footer-body row">
+       <form action="" method="post" class="d-flex flex-dir-column">
          <div class="form-group">
-           <label for="name">Name</label>
-           <input type="text" id="name" name="contact_name">
+           <label for="name" class="d-none">Name</label>
+           <input type="text" id="name" name="contact_name" class="form-input" placeholder="Your name">
          </div>
          <div class="form-group">
-           <label for="email">Email</label>
-           <input type="email" id="email" name="contact_email">
+           <label for="email" class="d-none">Email</label>
+           <input type="email" id="email" name="contact_email" class="form-input" placeholder="Your email">
          </div>
          <div class="form-group">
-           <label for="msg">Message</label>
-           <textarea id="msg" name="contact_msg"></textarea>"
+           <label for="msg" class="d-none">Message</label>
+           <textarea id="msg" name="contact_msg" class="form-input" rows="8" placeholder="Write your message here"></textarea>"
          </div>
-         <button type="submit">Get It Touch</button>
+         <button type="button" class="btn my-0">Get It Touch</button>
        </form>
        <span class="dark-shape"></span>
      </div>
