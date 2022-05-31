@@ -17,7 +17,7 @@
     <header>
         <nav class="nav-el">
             <!--left side-->
-            <div class="my-logo"><a href="#">My Logo</a></div>
+            <div class="my-logo"><a href="#">Abazrashid</a></div>
 
             <!--right side-->
             <a href="#" class="hamburger"><img src="images/hambueger.png" alt=""></a>
@@ -157,34 +157,24 @@
         <h3 class="skills"><span>skills</span><img src="images/arr-right.svg" alt=""></h3>
     </div>
 </section>
-<footer>
-   <div class="footer-container p-5 gap-2 d-flex flex-dir-column align-items-center justify-around">
-     <div class="footer-header d-flex flex-dir-column mt-5">
-       <h1 class="text-white d-inline mx-auto .header-typo-1 my-1 ">Contact me</h1>
-       <p class="text-white my-1 text-center mt-1">
-         If you have an application you are interested in developing, a feature
-         that you need built or a project that needs coding. I’d love to help with it
-       </p>
-     </div>
-     <div class="footer-body row">
-       <form action="" method="post" class="d-flex flex-dir-column">
-         <div class="form-group">
-           <label for="name" class="d-none">Name</label>
-           <input type="text" id="name" name="contact_name" class="form-input" placeholder="Your name">
-         </div>
-         <div class="form-group">
-           <label for="email" class="d-none">Email</label>
-           <input type="email" id="email" name="contact_email" class="form-input" placeholder="Your email">
-         </div>
-         <div class="form-group">
-           <label for="msg" class="d-none">Message</label>
-           <textarea id="msg" name="contact_msg" class="form-input" rows="8" placeholder="Write your message here"></textarea>"
-         </div>
-         <button type="button" class="btn my-0">Get It Touch</button>
-       </form>
-       <span class="dark-shape"></span>
-     </div>
-   </div>
-</footer>
+<!--contact form section-->
+<section class="contact">
+    <div class="contact-container">
+        <h2>Contact me</h2>
+        <p>If you have an application you are interested in developing, a
+            feature that you need built or a project that needs coding. I’d
+            love to help with it </p>
+        <form action="https://formspree.io/f/xdobperd" method="post">
+            <input type="text" id="name" name="user_name" placeholder="abass rashid" maxlength="30" required>
+            <input type="email" id="mail" name="user_email" placeholder="Abazrashid@gmail.com" required>
+            <textarea id="msg" name="user_message" placeholder="Write your message here" maxlength="500"
+                required></textarea>
+            <button type="submit" class="btn-submit">Get in touch</button>
+            <span class="line"></span>
+
+        </form>
+    </div>
+</section>
+<!--end of contact section-->
 </body>
 </html>
