@@ -6,9 +6,15 @@
 
 body {
   font-family: 'Poppins', sans-serif;
-  margin: 16px 20px;
   min-height: 100vh;
-  background-color: #ebebff;
+  background-color: #e5e5e5;
+}
+.container-main {
+  background-color: #fff;
+  padding: 10px;
+  border-bottom-left-radius: 3rem;
+  padding-bottom: 4rem;
+  margin: 0 6px;
 }
 
 header {
