@@ -397,6 +397,7 @@ textarea {
   border-radius: 8px;
   align-self: flex-start;
   padding: 8px 15px;
+  transition: all 1s ease-in-out;
 }
 
 .line {
@@ -486,6 +487,10 @@ textarea {
     padding-right: 2rem;
     padding-top: 3rem;
   }
+  .card-image img:hover {
+    transform: scale(120%);
+  }
+
 
   .card-container {
     display: flex;
@@ -545,6 +550,7 @@ textarea {
   .display {
     display: block;
   }
+  
 
   .contact-container p {
     max-width: 562px;
@@ -553,4 +559,33 @@ textarea {
   .btn-submit {
     margin-left: 4rem;
   }
+
+    @keyframes moveToRight {
+      0% {
+        transform: translateX(0);
+      }
+  
+      100% {
+        transform: translateX(150px);
+      }
+    }
+  
+    .my-logo {
+      animation-name: rotate;
+      animation-duration: 0.9s;
+    }
+  
+    @keyframes rotate {
+      0% {
+        transform: rotate(0);
+      }
+  
+      50% {
+        transform: rotate(90deg);
+      }
+  
+      100% {
+        transform: rotate(180deg);
+      }
+    }
 }
