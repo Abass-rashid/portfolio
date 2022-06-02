@@ -62,6 +62,11 @@ a {
   font-size: 17px;
 }
 
+button,
+.nav-link {
+  transition: all 1s ease-out;
+}
+
 .nav-link:hover {
   cursor: pointer;
   color: #6070ff;
@@ -397,6 +402,7 @@ textarea {
   border-radius: 8px;
   align-self: flex-start;
   padding: 8px 15px;
+  transition: all 1s ease-in-out;
 }
 
 .line {
@@ -446,6 +452,8 @@ textarea {
 
   .my-logo {
     padding-left: 145px;
+    animation-name: rotate;
+    animation-duration: 0.9s;
   }
 
   .container-main {
@@ -485,6 +493,10 @@ textarea {
   .card-container-1 img {
     padding-right: 2rem;
     padding-top: 3rem;
+  }
+
+  .card-image img:hover {
+    transform: scale(120%);
   }
 
   .card-container {
@@ -552,5 +564,91 @@ textarea {
 
   .btn-submit {
     margin-left: 4rem;
+  }
+
+  @keyframes moveToRight {
+    0% {
+      transform: translateX(0);
+    }
+
+    100% {
+      transform: translateX(150px);
+    }
+  }
+
+  @keyframes rotate {
+    0% {
+      transform: rotate(0);
+    }
+
+    50% {
+      transform: rotate(90deg);
+    }
+
+    100% {
+      transform: rotate(180deg);
+    }
+  }
+}
+
+.fade-in {
+  animation-name: fadeIn;
+  animation-duration: 4s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards;
+}
+
+.delay-3 {
+  animation-delay: 2s;
+}
+
+.move-in {
+  animation-name: moveIn;
+  animation-duration: 2s;
+  animation-timing-function: ease-in;
+  position: relative;
+}
+
+.opacity-0 {
+  opacity: 0;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes moveIn {
+  from {
+    top: -1000px;
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+.shake:hover {
+  animation-name: shake;
+  animation-duration: 1s;
+  animation-iteration-count: 1;
+  animation-fill-mode: both;
+}
+
+@keyframes shake {
+  from {
+    -ms-transform: rotate(-20deg);
+    transform: rotate(-20deg);
+  }
+
+  to {
+    -ms-transform: rotate(20deg);
+    transform: rotate(20deg);
   }
 }
