@@ -18,6 +18,9 @@ This project is my personal Portifolio on which you may find my recent work and 
 -Clone the project via terminal or download the package.
 
 -Open index.html file via browser
+## Live Demo (if available)
+
+[portfolio](https://abass-rashid.github.io/portfolio/)
 
 ### Prerequisites
 
