@@ -18,7 +18,7 @@ This project is my personal Portifolio on which you may find my recent work and 
 -Clone the project via terminal or download the package.
 
 -Open index.html file via browser
-## Live Demo (if available)
+## Live Demo 
 
 [portfolio](https://abass-rashid.github.io/portfolio/)
 
@@ -44,6 +44,9 @@ npx stylelint "**/*.{css,scss}" npx hint ./index.html
 - Twitter: [@twitterhandle](https://twitter.com/abass-rashid10)
 - LinkedIn: [LinkedIn](https://linkedin.com/in/abass-rashid)
 
+### Deployment
+
+deployed on github pages for storage
 
 ## 🤝 Contributing
 
