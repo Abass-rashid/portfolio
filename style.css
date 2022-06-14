@@ -23,7 +23,6 @@ header {
   background: no-repeat center/100% url(images/headerbg.svg);
 }
 
-
 a {
   text-decoration: none;
 }
@@ -52,6 +51,11 @@ a {
   color: #333;
 }
 
+button,
+.nav-link {
+  transition: all 1s ease-out;
+}
+
 .nav-link:hover {
   color: dodgerblue;
   cursor: pointer;
@@ -70,11 +74,6 @@ a {
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
   background: dodgerblue;
-}
-
-button,
-.nav-link {
-  transition: all 1s ease-out;
 }
 
 .header {
@@ -412,7 +411,7 @@ textarea {
 }
 
 @media all and (max-width: 767px) {
-.hamburger {
+  .hamburger {
     display: block;
   }
 
