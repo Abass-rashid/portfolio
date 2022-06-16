@@ -200,6 +200,7 @@ h4 span {
   border-radius: 8px;
   padding: 10px 10px;
 }
+
 /*  work section */
 .works {
   display: grid;
@@ -737,163 +738,163 @@ textarea {
   .social-icons {
     padding-right: 25rem;
   }
+
   /* modelss */
-     #work {
-       margin-top: 350px;
-     }
-  
-     .card {
-       display: flex;
-       align-items: center;
-       gap: 50px;
-       width: 100%;
-     }
-  
-     small {
-       z-index: 999;
-       color: #ffff;
-       display: block;
-       margin-top: 5px;
-       font-size: 20px;
-       padding: 5px;
-     }
-  
-     .card1 {
-       order: 1;
-     }
-  
-     .card2 {
-       order: -1;
-     }
-  
-     .card3 {
-       order: 1;
-       display: flex;
-       flex-direction: row-reverse;
-     }
-  
-     .card4 {
-       order: -1;
-       display: flex;
-       flex-direction: row-reverse;
-     }
-  
-     .card .card-image {
-       max-width: 544px;
-     }
-  
-     .card-Content {
-       max-width: 496px;
-     }
-  
-     #About .container {
-       display: grid;
-       grid-template-columns: 1fr 1fr;
-       align-items: center;
-       width: 100%;
-       justify-content: space-between;
-     }
-  
-     /* Desktop works card Section */
-     .project-card {
-       flex-direction: row;
-       padding: 24px;
-       width: 1156px;
-       height: 496px;
-       border-radius: 24px;
-     }
-  
-     .project-card:nth-child(even) {
-       flex-direction: row-reverse;
-     }
-  
-     .project-img-wrapper {
-       width: 48%;
-       height: 100%;
-     }
-  
-     .project-content-block {
-       width: 47%;
-       height: 445px;
-       padding: 24px;
-       margin-left: 22px;
-     }
-  
-     .project-header {
-       height: 98px;
-     }
-  
-     .project-title {
-       font-size: 40px;
-     }
-  
-     .project-info {
-       font-size: 18px;
-       line-height: 24px;
-     }
-  
-     .project-description {
-       margin: 24px 0;
-       font-size: 16px;
-     }
-  
-     .action-container {
-       height: 153px;
-       margin-top: 24px;
-     }
-  
-     /* Desktop Project Modal Section */
-     .modal-container {
-       overflow: auto;
-     }
-  
-     .works-modal {
-       width: 90%;
-       max-width: 1156px;
-       height: 90vh;
-       padding: 16px 24px;
-       margin: 20px 0;
-       overflow-y: scroll;
-     }
-  
-     .works-modal .project-img-wrapper {
-       width: 100%;
-       height: 586px;
-     }
-  
-     .modal-body .project-description {
-       float: left;
-       width: 67%;
-       height: 352px;
-     }
-  
-     .modal-body .divider {
-       display: none;
-     }
-  
-     .modal-body .tags {
-       justify-content: flex-start;
-       flex-wrap: wrap;
-     }
-  
-     .modal-body .tags .tag-item {
-       margin: 0 5px;
-     }
-  
-     .modal-body .tags,
-     .modal-body .action-container {
-       float: right;
-       width: 30%;
-     }
-  
-     .modal-body .action-btn {
-       margin-right: 5px;
-     }
-  /* end of models */
+  #work {
+    margin-top: 350px;
+  }
 
   .card {
-    width: 65%;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    width: 100%;
   }
+
+  small {
+    z-index: 999;
+    color: #ffff;
+    display: block;
+    margin-top: 5px;
+    font-size: 20px;
+    padding: 5px;
+  }
+
+  .card1 {
+    order: 1;
+  }
+
+  .card2 {
+    order: -1;
+  }
+
+  .card3 {
+    order: 1;
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  .card4 {
+    order: -1;
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  .card .card-image {
+    max-width: 544px;
+  }
+
+  .card-Content {
+    max-width: 496px;
+  }
+
+  #About .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  /* Desktop works card Section */
+  .project-card {
+    flex-direction: row;
+    padding: 24px;
+    width: 1156px;
+    height: 496px;
+    border-radius: 24px;
+  }
+
+  .project-card:nth-child(even) {
+    flex-direction: row-reverse;
+  }
+
+  .project-img-wrapper {
+    width: 48%;
+    height: 100%;
+  }
+
+  .project-content-block {
+    width: 47%;
+    height: 445px;
+    padding: 24px;
+    margin-left: 22px;
+  }
+
+  .project-header {
+    height: 98px;
+  }
+
+  .project-title {
+    font-size: 40px;
+  }
+
+  .project-info {
+    font-size: 18px;
+    line-height: 24px;
+  }
+
+  .project-description {
+    margin: 24px 0;
+    font-size: 16px;
+  }
+
+  .action-container {
+    height: 153px;
+    margin-top: 24px;
+  }
+
+  /* Desktop Project Modal Section */
+  .modal-container {
+    overflow: auto;
+  }
+
+  .works-modal {
+    width: 90%;
+    max-width: 1156px;
+    height: 90vh;
+    padding: 16px 24px;
+    margin: 20px 0;
+    overflow-y: scroll;
+  }
+
+  .works-modal .project-img-wrapper {
+    width: 100%;
+    height: 586px;
+  }
+
+  .modal-body .project-description {
+    float: left;
+    width: 67%;
+    height: 352px;
+  }
+
+  .modal-body .divider {
+    display: none;
+  }
+
+  .modal-body .tags {
+    justify-content: flex-start;
+    flex-wrap: wrap;
+  }
+
+  .modal-body .tags .tag-item {
+    margin: 0 5px;
+  }
+
+  .modal-body .tags,
+  .modal-body .action-container {
+    float: right;
+    width: 30%;
+  }
+
+  .modal-body .action-btn {
+    margin-right: 5px;
+  }
+
+  /* end of models */
+
+
 
   .card-content-1 h3 {
     margin-bottom: 0;
