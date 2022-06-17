@@ -421,18 +421,18 @@ h4 span {
 
 /* end of work section */
 
-button {
+/* button {
   color: #396df2;
   background-color: white;
   border: 1px solid #6070ff;
   font-weight: 500;
-  font-size: 17px;
-  line-height: 24px;
+  font-size: 18px;
+  line-height: 14px;
   border-radius: 8px;
   align-self: flex-start;
-  padding: 8px 8px;
-  margin-top: 1rem;
-}
+  padding: 12px  20px;
+  margin-top: 0.8rem;
+} */
 
 button:hover {
   background: #6070ff;
