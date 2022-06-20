@@ -458,7 +458,6 @@ textarea {
 
   .mobile li {
     list-style: none;
-    font-size: 32px;
     padding-bottom: 10px;
     z-index: 999;
   }
@@ -466,6 +465,8 @@ textarea {
   .mobile li a {
     color: #fff;
     padding-left: 28px;
+    font-size: 32px;
+    margin: 0.5rem;
     text-decoration: none;
   }
 
