@@ -10,3 +10,4 @@ document.querySelectorAll('.tem').forEach((n) => n.addEventListener('click', () 
   menu.classList.remove('active');
   nav.classList.remove('active');
 }));
+
