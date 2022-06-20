@@ -851,22 +851,27 @@ textarea {
 
   .works-modal {
     width: 90%;
-    max-width: 1156px;
+    max-width: 1200px;
     height: 90vh;
     padding: 16px 24px;
     margin: 20px 0;
-    overflow-y: scroll;
+    overflow-y: hidden;
   }
 
   .works-modal .project-img-wrapper {
-    width: 100%;
-    height: 586px;
+    width: 75%;
+    height: 400px;
+    margin-left: 5rem;
+    padding: 10px 0;
+    backdrop-filter: blur(10px);
+    filter: blur(2px);
+    transition: 0.5s ease;
   }
 
   .modal-body .project-description {
     float: left;
     width: 67%;
-    height: 352px;
+    height: 350px;
   }
 
   .modal-body .divider {

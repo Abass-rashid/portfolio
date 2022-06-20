@@ -21,7 +21,7 @@ const datacards = [
     counter_image: 'images/counter.svg',
     project_info_text: ['Back End Dev', '2015'],
     project_description:
-      'A daily selection of privately personalized reads; no accounts or sign-ups required.',
+      'Experimental content creation feature that allows users to add to an existing story over the course of a day without spamming their friends.',
     tags: ['html', 'css', 'javascript'],
     live_version: 'https://abass-rashid.github.io/portfolio',
     source_code: 'https://github.com/Abass-rashid/portfolio',
