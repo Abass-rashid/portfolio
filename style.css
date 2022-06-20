@@ -845,12 +845,15 @@ textarea {
   }
 
   /* Desktop Project Modal Section */
+
   .modal-container {
     overflow: auto;
+    background: no-repeat center/100% url(images/headerbg.svg);
+    filter: blur(1px);
   }
 
   .works-modal {
-    width: 90%;
+    width: 80%;
     max-width: 1200px;
     height: 90vh;
     padding: 16px 24px;
@@ -863,15 +866,14 @@ textarea {
     height: 400px;
     margin-left: 5rem;
     padding: 10px 0;
-    backdrop-filter: blur(10px);
-    filter: blur(2px);
-    transition: 0.5s ease;
+    z-index: 20;
   }
 
   .modal-body .project-description {
     float: left;
     width: 67%;
     height: 350px;
+    z-index: 2;
   }
 
   .modal-body .divider {
