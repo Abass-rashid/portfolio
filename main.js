@@ -11,7 +11,7 @@ document.querySelectorAll('.tem').forEach((n) => n.addEventListener('click', () 
   nav.classList.remove('active');
 }));
 
-// modals
+
 
 const datacards = [
   {
