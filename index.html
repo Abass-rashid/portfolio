@@ -15,22 +15,25 @@
 <body>
 <div class="container-main">
     <header>
-        <nav class="nav-el">
+        <nav class="navbar">
             <!--left side-->
-            <div class="my-logo"><a href="#" alt="name-tag">Abazrashid</a></div>
-
+            <a href="#" class="nav-branding">Abazrashid.</a>
+        
             <!--right side-->
-            <ul class="navigation">
-                <li><a href="#" class="nav-link">Portfolio</a></li>
-            
-                <li><a href="#" class="nav-link">About</a></li>
-            
-                <li><a href="#" class="nav-link">Contact</a></li>
+            <ul class="mobile">
+                <li class="tem"><a href="#portfolio">Portfolio</a></li>
+                <li class="tem"><a href="#about">About</a></li>
+                <li class="tem"><a href="#contact">Contact</a></li>
             </ul>
-            <a href="#" class="hamburger"><img src="images/hambueger.png" alt="menu-icon"></a>
-
+            
+            <div class="menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+                   
+        
         </nav>
-
         <!--header section-->
         <section-1>
             <div class="header">
@@ -57,7 +60,7 @@
     </header>
 </div>
 <!--work section-->
-<section class="portfolio">
+<section class="portfolio" id="portfolio">
     <article class="card">
         <div class="card-container">
             <div class="card-image">
@@ -158,7 +161,7 @@
         </div>
     </article>
 </section>
-<section class="about">
+<section class="about" id="about">
     <div class="about-container">
         <div class="about-content">
         <h2>about <br>myself</h2>
@@ -188,7 +191,7 @@
     </div>
 </section>
 <!--contact form section-->
-<section class="contact">
+<section class="contact" id="contact">
     <div class="contact-container">
 
         <h2>Contact me</h2>
@@ -205,5 +208,6 @@
     </div>
 </section>
 <!--end of contact section-->
+<script src="main.js"></script>
 </body>
 </html>
