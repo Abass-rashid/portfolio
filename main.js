@@ -13,56 +13,7 @@ document.querySelectorAll('.tem').forEach((n) => n.addEventListener('click', () 
 
 // modals
 
-const datacards = [
-  {
-    project_img: 'images/Portfolio.png',
-    project_title: 'tonic',
-    project_info_title: 'CANOPY',
-    counter_image: 'images/counter.svg',
-    project_info_text: ['Back End Dev', '2015'],
-    project_description:
-      'A daily selection of privately personalized reads; no accounts or sign-ups required.',
-    tags: ['html', 'css', 'javascript'],
-    live_version: 'https://abass-rashid.github.io/portfolio',
-    source_code: 'https://github.com/Abass-rashid/portfolio',
-  },
-  {
-    project_img: 'images/Portfolio1.png',
-    project_title: 'multi-post',
-    project_info_title: 'CANOPY',
-    counter_image: 'images/counter.svg',
-    project_info_text: ['Back End Dev', '2015'],
-    project_description:
-      'A daily selection of privately personalized reads; no accounts or sign-ups required.',
-    tags: ['html', 'css', 'javascript'],
-    live_version: 'https://abass-rashid.github.io/portfolio',
-    source_code: 'https://github.com/Abass-rashid/portfolio',
-  },
-  {
-    project_img: 'images/Portfolio2.png',
-    project_title: 'Facebook 360',
-    project_info_title: 'CANOPY',
-    counter_image: 'images/counter.svg',
-    project_info_text: ['Back End Dev', '2015'],
-    project_description:
-      "Exploring the future of media in Facebook's first Virtual Reality app; a place to discover and enjoy 360 photos and videos on Gear VR.",
-    tags: ['html', 'css', 'javascript'],
-    live_version: 'https://abass-rashid.github.io/portfolio/',
-    source_code: 'https://github.com/Abass-rashid/portfolio',
-  },
-  {
-    project_img: 'images/Portfolio3.png',
-    project_title: 'Uber Navigation',
-    project_info_title: 'CANOPY',
-    counter_image: 'images/counter.svg',
-    project_info_text: ['Back End Dev', '2015'],
-    project_description:
-      'A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer: your car.',
-    tags: ['html', 'css', 'javascript'],
-    live_version: 'https://abass-rashid.github.io/portfolio/',
-    source_code: 'https://github.com/Abass-rashid/portfolio',
-  },
-];
+
 
 // Populate Project Card using an array of project data objects
 const portfolio = document.querySelector('.works');
