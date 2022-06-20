@@ -6,7 +6,4 @@ menu.addEventListener('click', () => {
   nav.classList.toggle('active');
 });
 
-document.querySelectorAll('.tem').forEach((n) => n.addEventListener('click', () => {
-  menu.classList.remove('active');
-  nav.classList.remove('active');
-}));
+
