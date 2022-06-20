@@ -9,7 +9,6 @@ menu.addEventListener('click', () => {
 document.querySelectorAll('.tem').forEach((n) => n.addEventListener('click', () => {
   menu.classList.remove('active');
   nav.classList.remove('active');
-
 }));
 
 // modals
@@ -199,5 +198,3 @@ closeModalBtn.addEventListener('click', () => {
   modal.style.display = 'none';
   body.style.overflow = 'auto';
 });
-}));
-
