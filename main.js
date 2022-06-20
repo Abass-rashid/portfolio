@@ -198,3 +198,4 @@ closeModalBtn.addEventListener('click', () => {
   modal.style.display = 'none';
   body.style.overflow = 'auto';
 });
+let c;
