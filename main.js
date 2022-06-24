@@ -206,11 +206,11 @@ const error = document.querySelector('small');
 form.addEventListener('submit', (e) => {
   const message = [];
 
-  if (email.value !== email.value.toLowerCase()) {
+  if (email.value === email.value.toLowerCase()) {
     message.push('Please use lowercase for email address');
   }
 
-  if (message.length > 0) {
+  if (message.length < 0) {
     e.preventDefault();
     error.innerHTML = message.join('<br/>');
     email.style.border = '2px solid #df0000';
